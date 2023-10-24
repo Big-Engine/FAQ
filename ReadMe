@@ -1,0 +1,40 @@
+Frequently Asked Custom Page
+Creating a simple modern FAQ page with HTML, CSS and JavaScript. What makes the page unique is its dynamic logic with Javascript, you don't need to include additional IDs or classes to the HTML tags when adding more FAQ lists.
+
+To generate more FAQs, all you need to do is duplicate the <div class="faq">...</div> tag; replace the h2 and p tags with your new contents and you're done!
+
+HTML
+Used the main tag to rap the FAQ container
+Used div tag to wrap the individual FAQ by assigning it faq open classes.
+The h1 tag contains the FAQ title.
+The p tag contains the FAQ Description
+The span tag contains the buttons
+
+CSS
+Used the classes for basic styling.
+The tag.open declaration will be toggled with Javascript.
+
+Headings Dummy Texts
+How can I pay for essential or premium plan?
+Can I cancel my Essentials or Premium plan subscription at any time?
+We need to add new users to our team. How will that be billed?
+My team wants to cancel its subscription. How do we do that? Can we get a refund?
+Do you offer discounts for non-profit organisations or educational institutions?
+
+Paragraph Dummy Texts
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+Javascript Logic
+Event bubbling and event capturing was used to capture clicks whenever the user clicks on the button. Which also allows us to manipulate the parent element.
+
+hideTag() function hides all the elements and change the buttons to + icon.
+forEach Loop was used to create event bubbling.
+addEventListener will be triggered when a faq element is clicked.
+Finally, if statement was used to trigger change whenever the button is clicked.
+
+Credit:
+Created By InstinctHub
+UI Design By Bubu Dragos
+HTML Entity By Toptal
+Dummy Text By Lorem Ipsum
+
